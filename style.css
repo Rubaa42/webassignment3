@@ -1,0 +1,796 @@
+*{
+font-family: sans-serif;
+font-size: 15px;
+box-sizing: border-box;
+
+}
+
+
+.header{
+    border: 1px solid rgb(71,71,189);
+    background-color: rgb(71,71,189);
+    padding: 10px;
+    height: 50px;
+    color: cornsilk;
+    
+}
+
+#fb{
+    margin-left: 5em;
+}
+
+p{
+    display: inline-block;
+    margin: 0px 0px 20px 5em;
+    
+}
+
+#but1{
+    margin-left: 5em;
+}
+
+/* header buttons */
+input{
+    color: rgb(105, 101, 101);
+}
+
+
+.sayimg{
+    margin: 0px 0px 0px 2em;
+}
+
+
+#twitter, #insta, #youtube, #wa{
+    margin-left: 15px;
+}
+
+
+/* main menu */
+.menu-bar{
+    /* position: fixed;
+    z-index: 1;
+    background-color: white;
+    width: 100%; */
+    z-index: 8;
+    background-color: #f7f8fa;
+    color: #939393;
+    font-family: 'Anton', sans-serif
+    
+   
+}
+
+.menu-bar ul{
+    display: inline-flex;
+   
+}
+
+.menu-bar ul li{
+    list-style: none;
+    margin: 0px 20px 0px 12px;
+    
+
+}
+/*HOME*/
+.menu-bar ul li a.first{
+    margin-left: 7em;
+    background-color:rgb(71,71,189);
+    border: 1px solid rgb(71,71,189);
+    border-radius: 20px;
+    padding: 5px;
+    color: whitesmoke;
+
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.second:hover, .third:hover, .fourth:hover, .fifth:hover, .six:hover, .seven:hover{
+    background-color:rgb(71,71,189) ;
+    border: 1px solid rgb(71,71,189);
+    border-radius: 20px;
+    padding: 5px;
+    color: whitesmoke;
+    
+}
+
+.menu-bar .fa{
+    margin-left: 2px;
+}
+
+
+
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    margin-top: 5px;  
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    
+}
+
+.sub-menu-1 ul li:hover{
+    background-color: rgb(71,71,189);
+    padding: 5px;
+}
+.menu-bar .sub-menu-1 ul li{
+    margin-left: -33px;
+}
+
+.sub-menu-1 ul li a:hover{
+    color:whitesmoke;
+}
+
+
+
+
+
+
+.sub-menu-2{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-2
+{
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    
+}
+
+.menu-bar ul li:hover .sub-menu-2 ul
+{
+    display: block;
+}
+
+.menu-bar .sub-menu-2 ul li{
+    margin-left: -40px;
+}
+
+.sub-menu-2 ul li:hover{
+    background-color: rgb(71,71,189);
+    padding: 5px;
+}
+
+.sub-menu-2 ul li a:hover{
+    color:whitesmoke;
+
+}
+
+
+.fa-angle-right
+{
+    float: right;
+
+}
+
+
+
+
+
+
+
+
+.sm-1{
+    display:none;
+}
+
+.sub-menu-2:hover .hover-me:hover .sm-1
+{
+    position: absolute;
+    display: block;
+    margin-top: -20px;
+    margin-left:195px;
+    white-space: nowrap;
+    background-color: white;
+}
+
+
+.sub-menu-2:hover .hover-me:hover .sm-1 ul{
+    display: block;
+    padding: 5px 0px 0px 2.8em;
+    width: fit-content;
+    
+}
+.sub-menu-2:hover .hover-me:hover .sm-1 ul li{
+    padding-left: 1em;
+    text-align: left;
+}
+
+
+.sm-1a{
+    display: none;
+}
+.sub-menu-2:hover .hover-me:hover .sm-1 .hm-1:hover .sm-1a
+{
+    position: absolute;
+    display: block;
+    margin-top: -20px;
+    margin-left: 189px;
+    white-space: nowrap;  
+    background-color: white;
+    
+}
+.sub-menu-2:hover .hover-me:hover .sm-1 .hm-1:hover .sm-1a ul{
+    display: block;
+    padding: 5px 0px 0px 2.8em;
+    width: fit-content;
+    
+}
+
+.sub-menu-2:hover .hover-me:hover .sm-1:hover .hm-1:hover .sm-1a ul li{
+    padding left: 3em;
+    
+}
+
+.fa-angle-double-right
+{
+padding-left: 5px;
+}
+
+
+
+
+
+.sm-2{
+    display: none;
+}
+
+.sub-menu-2:hover .hover-me:hover .sm-2 
+{
+    position: absolute;
+    display: block;
+    margin-top: -20px;
+    margin-left: 195px;
+    white-space: nowrap;
+    background-color: white;    
+}
+
+.sub-menu-2:hover .hover-me .sm-2 ul{
+    display: block;
+    padding: 5px 0px 0px 2.8em;
+    width: fit-content;  
+}
+
+.sub-menu-2:hover .hover-me .sm-2 ul li{
+    padding-left: 1em;
+    text-align: left;
+}
+
+
+
+.sm-3{
+    display: none;
+}
+
+.sub-menu-2:hover .hover-me:hover .sm-3
+{
+    position: absolute;
+    display: block;
+    margin-top: -20px;
+    margin-left: 195px;
+    white-space: nowrap;
+    background-color: white;
+       
+}
+.sub-menu-2:hover .hover-me:hover .sm-3 ul{
+    display: block;
+    padding: 5px 0px 0px 2.8em;
+    width: fit-content;
+    
+}
+
+.sub-menu-2:hover .hover-me:hover .sm-3 ul li{
+    padding-left: 1em;
+    text-align: left;
+}
+
+
+
+.sm-4{
+    display: none;
+}
+
+.sub-menu-2:hover .hover-me:hover .sm-4 
+{
+    position: absolute;
+    display: block;
+    margin-top: -20px;
+    margin-left: 195px;
+    white-space: nowrap;
+    background-color: white;
+
+    
+}
+.sub-menu-2:hover .hover-me:hover .sm-4 ul{
+    display: block;
+    padding: 5px 0px 0px 2.9em;
+    width: fit-content;
+    
+}
+
+.sub-menu-2:hover .hover-me:hover .sm-4 ul li{
+    padding-left: 1em;
+    text-align: left;
+}
+
+
+
+
+
+
+.sub-menu-3{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-3
+{
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    
+}
+
+.menu-bar ul li:hover .sub-menu-3 ul
+{
+    display: block;
+    
+}
+
+.sub-menu-3 ul li:hover{
+    background-color: rgb(71,71,189);
+    padding: 5px;
+}
+.menu-bar .sub-menu-3 ul li{
+    margin-left: -33px;
+}
+
+.sub-menu-3 ul li a:hover{
+    color:whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+.sub-menu-4{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-4
+{
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    
+}
+
+.menu-bar ul li:hover .sub-menu-4 ul
+{
+    display: block;
+    
+}
+
+.sub-menu-4 ul li:hover{
+    background-color: rgb(71,71,189);
+    padding: 5px;
+}
+.menu-bar .sub-menu-4 ul li{
+    margin-left: -33px;
+}
+
+.sub-menu-4 ul li a:hover{
+    color:whitesmoke;
+}
+
+
+
+
+
+
+.sm-last{
+    display: none;
+}
+
+.sub-menu-4:hover .hover-me2:hover .sm-last 
+{
+    position: absolute;
+    display: block;
+    margin-top: -20px;
+    margin-left: 130px;
+    white-space: nowrap;
+    background-color: white;
+      
+}
+.sub-menu-4:hover .hover-me2:hover .sm-last ul{
+    display: block;
+    padding: 5px 0px 0px 0px;
+    
+}
+
+.sub-menu-4:hover .hover-me2:hover .sm-last ul{
+    padding-left: 3em;
+}
+
+
+
+
+.sub-menu-1{
+    background-color: white;
+    border: 1px solid white;
+}
+
+.sub-menu-2 {
+    background-color:white ;
+    border: 1px solid  white;
+}
+
+.sub-menu-3{
+    background-color:white ;
+    border: 1px solid white;
+}
+
+.sub-menu-4{
+    background-color:white;
+    border: 1px solid white;
+}
+
+
+
+
+
+
+.div3{
+    margin: 3px 0px 0px 0px;
+    text-align: center;
+    background-color: rgb(61, 61, 148);
+    margin-top: 0px;
+    padding: 5px;
+    color: whitesmoke;
+    width:80%;
+    margin:auto ;
+}
+.div3 .para{
+    margin: 3px 0px 3px 0px;
+}
+
+
+
+.div4{
+    text-align: center;
+    margin: 5em 0px 0px 0px;
+    clear: both;
+}
+
+.div4 .head1{
+    display:  inline-block;
+    color: rgb(39, 39, 228);
+    font-weight: bold;
+    
+}
+.div4 .head2{
+    display: inline-block;
+    color: green;
+    font-weight: bold;
+}
+
+.text1 {
+    line-height: 30px;
+    text-align: justify;
+    margin:10px 9em 0px 9em;
+    color: grey;
+}
+
+.text2{
+    line-height: 30px;
+    text-align: justify;
+    margin:2em 9em 0px 9em;
+    color: grey;
+}
+
+.text3{
+    line-height: 30px;
+    text-align: justify;
+    margin:2em 9em 0px 9em;
+    color: grey;
+}
+
+.text4{
+    line-height: 30px;
+    text-align: justify;
+    margin:2em 9em 0px 9em;
+    color: grey;
+}
+
+
+
+/* SLIDER */
+#carouselExampleControls{
+    z-index: -1;
+}
+
+
+.underscore{
+display: inline-block;
+padding: 30px;
+color: green;
+margin-top: -2em;
+}
+
+
+
+
+
+.div5{
+    height: 20em;
+    background-color: rgb(71,71,189);
+    margin: 10em 0px 0px 0px;
+    
+}
+
+.logo{
+    margin: 4em 10em 0px 10em;
+}
+
+.divhead{
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 42;
+   margin: 1em 4em 0px 4em;
+}
+
+.heading5{
+    color: whitesmoke;
+    font-weight: 600;
+    margin: 1em 2em 0px 2em;
+}
+
+.heading5a{
+    color: whitesmoke;
+    font-weight: 600;
+    margin: 1em 4em 0px 4em;
+}
+
+.span1{
+    color: rgb(15, 236, 15);
+    font-size: larger;
+}
+
+
+.div6{
+    margin : 5em 0px 0px 0px;
+    background-color: rgb(247, 244, 244);
+}
+
+.div6head{
+    color: blue;
+    
+
+}
+
+.span2{
+    color: green;
+    font-size: 40px;
+    
+}
+
+
+.subdiv1{
+    background-color:white;
+    border: 1px solid lightgray;
+    padding: 5px;
+    margin: 2em 0em 0px 3em;
+    width: 24em;
+    height: 12em;
+    box-shadow: 8px 8px 25px gray;
+}
+
+
+.i1{
+margin: 22px 0px 22px 0px;
+
+}
+
+.t1{
+    color: rgb(70, 70, 138);
+    margin: 5px 0px 5px 0px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.div7{
+margin: 5em 0px 0px 0px;
+
+}
+
+.div7head1{
+    color: rgb(34, 34, 148);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin: 0em 0px 0px 2em;
+}
+
+.div7head2{
+    color: rgb(34, 34, 148);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin: 20px 0px 0px 8em;
+
+}
+
+.divpara{
+   width: 300px;
+   height: 200px;
+   border:1px solid lightgray;
+   margin: 2em 0px 0px 15em;
+   overflow: scroll;
+
+}
+
+.div7a{
+    width: 330px;
+    height: 70px;
+    border: 1px solid lightgrey;
+    display: inline-block;
+    background-color: rgb(228, 227, 227);
+    margin: 10px -30px 15px 60px;
+}
+
+.div7para{
+    text-align: justify;
+    margin: 7px 15px 0px 15px;
+    line-height: 28px;
+    color: grey;
+}
+
+.i2{
+    display: inline-block;
+    margin: 20px 0px 20px 20px ;
+}
+
+
+.div7ahead{
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(39, 39, 228);
+    display: inline-block;
+    margin: 20px 0px 20px 30px;
+}
+
+.div8head{
+    color: rgb(34, 34, 148);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.div8 h1 span{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+.underscore1{
+    display: inline-block;
+    color: green;
+    margin: -30px -9em 0px 50px;
+    text-align: center;
+    margin-left: 14em;
+}
+
+
+
+.div8{
+    margin: 5em 0px 0px 0px;
+}
+
+.div8a{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+
+.lastdiv ul li{
+    list-style: none;
+   
+}
+
+.lastdiv{
+    margin: 5em 0px 0px 0px;
+    border:1px solid black;
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    
+}
+
+.ltc{
+    margin: 10em 0px 0px 20px;
+    color:silver;
+    font-size: small;
+    display: inline-flex;
+}
+.list2{
+    line-height: 30px;
+}
+
+.list1{
+    margin-left: 40px;
+    line-height: 45px;
+} 
+
+.list1 .fa {
+    color: green;
+}
+
+
+.lta{
+    display: inline-flex;
+    margin: 5em 0px 0px 10em;
+    color: silver;
+
+}
+.ltb{
+    display: inline-flex;
+    width: 300px;
+    height: 80px;
+    padding: 5px;
+    margin: 5em 0px 0px 2em;
+}
+.lta h3 {
+    margin-left: -4em;
+    color: grey;
+    
+}
+
+/* .line{
+    color: grey;
+    margin: 10px 0px 0px 0px;
+} */
+
+
+.ltb h5{
+    color: silver;
+    display: block;
+}
+
+.ltblist a{
+    /* display:block; */
+}
+
+.ltblist a .fa{
+   margin: 0px 10px 0px 10px;
+}
+
+.ltblist .icons{
+    margin-left: -9em;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.footer{
+    height: 40px;
+    background-color: rgb(34, 34, 148);
+    color: whitesmoke;
+}
+
+.footer p{
+    margin: 10px 0px 10px 50px;
+    font-size: small;
+}
